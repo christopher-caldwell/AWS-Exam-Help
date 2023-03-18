@@ -18,14 +18,14 @@ Parameters:
   TokenDuration:
     Description: Name of the table
     Type: String
-  TableName:
-    Description: Name of the table
-    Type: String
   SigningKeyName:
     Description: Name of the key used to sign / validate tokens
     Type: String
   SecretName:
     Description: Name of the secret pair used to sign / validate tokens
+    Type: String
+  TableName:
+    Description: Name of the table
     Type: String
   TablePartitionKey:
     Description: Name of the tables partition key
